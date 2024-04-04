@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+/* global colors */
+:root {
+    --c-brand: #14867F; /* Brand */
+    --c-white: #f9f9f9; /* White */
+    --c-black: #122522; /* Black/Green */
+    --c-link-dark: #14867F; /* Dark Hyperlink */
+    --c-link-dark-hover: #a78e00; /* Dark Yellow Hover */
+    --c-link-light: #08fb92; /* Light Hyperlink */
+    --c-link-light-hover:#fae154; /* Light Yellow Hover */
+}
+
+
+body {
+    background-image: url("/images/cat-looking-in-sky-black.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    margin: 6em;
+    color: white;
+    
+}
+
+p {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    margin: 2rem;
+    margin-top: 3em;
+    color: var(--c-white)
+}
+
+
+.new-age {
+    font-size: 2em;
+    padding: 2rem;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(190, 235, 221);
+}
+
+.cal-btn {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 15em;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    height: 3em;
+    background: rgb(28, 144, 107);
+}
+
+.content {
+    color:rgb(202, 202, 202);
+    text-align: center;
+    border: none;
+    }
+
+
+.input-group {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+/* Range Input */
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 80%; 
+    height: 20px;
+    background: rgb(28, 144, 107); 
+    outline: none; 
+    opacity: 0.7; 
+    transition: opacity 0.2s; 
+    border-radius: 1em;
+}
+
+/* Slidder dragger */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px; 
+    height: 30px; 
+    background: #FFFFFF; 
+    border-radius: 50%; 
+    cursor: pointer; 
+}
+
+
+output {
+    display: inline-block;
+    color: #FFFFFF; 
+}
+
+.age-slider {
+    margin: 1em;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+/*FOOTER*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background:var(--c-brand);
+    width: 100%;
+    text-align: center;
+}
+
+
+#footer-list li{
+    list-style-type: none;
+    display: inline;
+    color: var(--c-white);
+}
+
+#footer-list a { 
+    text-decoration: none;
+}
+
+#footer-list .rasiana {
+    color: var(--c-link-dark);
+}
+
+footer a {
+    text-decoration: underline;
+    font-weight: 400;
+    color: var(--c-link-light);
+}
+footer a:hover { 
+    color: var(--c-link-light-hover);
+}
