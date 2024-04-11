@@ -9,19 +9,28 @@
 <h1>Cat age calculator</h1>
 
 
-
+<!-- SLIDER INPUT -->
 <div class="input-group" >
     <div class="age-slider">
-        <span>Select your cat's age: </span><output for="inputAge" id="ageOutput">0</output>
+        <span>Your cat's age: </span><output for="inputAge" id="ageOutput">0</output>
     </div>
     <br/>
     <input type="range" id="inputAge" min="0" max="25" step="1" value="0" >
+    <p id="scrool-instructions">Scroll to select the age</p>
 </div>
 
+<!-- RESPONSE -->
 <p class="new-age" id="newAge"></p>
 <div class="content">
     <p id="catAge"></p>
 </div>
+
+<!-- CAT FACT -->
+<div id="random-cat-fact">
+<h2>Random Cat Fact</h2>
+<div id="recipe-title"></div>
+</div>
+
 
 <footer>
     <ul id="footer-list">

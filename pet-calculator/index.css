@@ -2,13 +2,13 @@
 
 /* global colors */
 :root {
-    --c-brand: #14867F; /* Brand */
-    --c-white: #f9f9f9; /* White */
-    --c-black: #122522; /* Black/Green */
-    --c-link-dark: #14867F; /* Dark Hyperlink */
-    --c-link-dark-hover: #a78e00; /* Dark Yellow Hover */
-    --c-link-light: #08fb92; /* Light Hyperlink */
-    --c-link-light-hover:#fae154; /* Light Yellow Hover */
+    --c-brand: #14867F; 
+    --c-white: #f9f9f9; 
+    --c-black: #122522; 
+    --c-link-dark: #14867F; 
+    --c-link-dark-hover: #a78e00; 
+    --c-link-light: #08fb92; 
+    --c-link-light-hover:#fae154; 
 }
 
 
@@ -19,7 +19,6 @@ body {
     font-weight: bold;
     text-align: center;
     margin-top: 1em;
-    margin: 6em;
     color: white;
     
 }
@@ -30,6 +29,16 @@ p {
 }
 h1 {
     font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    margin: 2rem;
+    margin-top: 3em;
+    color: var(--c-white)
+}
+
+h2 {
+    font-size: 2em;
     text-align: center;
     text-transform: uppercase;
     padding: 2rem;
@@ -78,7 +87,7 @@ input[type="range"] {
     -webkit-appearance: none;
     width: 80%; 
     height: 20px;
-    background: rgb(28, 144, 107); 
+    background:var(--c-brand); 
     outline: none; 
     opacity: 0.7; 
     transition: opacity 0.2s; 
@@ -106,6 +115,20 @@ output {
     margin: 1em;
     font-size: 1.2em;
     text-transform: capitalize;
+}
+
+#random-cat-fact {
+    max-width: 50%;
+    margin: 0 auto; 
+    text-align: center;
+    /* border:#122522;
+    border-width: 10px; */
+    padding: 0 30px 30px 30px;
+}
+
+
+#scrool-instructions {
+    color: var(--c-link-light-hover);
 }
 
 /*FOOTER*/

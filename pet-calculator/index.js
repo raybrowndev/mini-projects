@@ -3,6 +3,36 @@ const catAgeElement = document.getElementById("catAge");
 const newAgeElement = document.getElementById("newAge");
 
 
+
+const recipeEl = document.getElementById('recipe-title')
+
+fetch('https://catfact.ninja/fact?max_length=140')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(responseJSON => {
+        const catFact = responseJSON.fact;
+            console.log(`Cat Fact: ${catFact}`);
+            
+            const recipeTitle = document.createElement('p');
+            recipeTitle.innerText = catFact;
+            recipeEl.append(recipeTitle);
+    })
+    .catch(error => console.error(`Error fetching API data: ${error}`));
+
+
+        
+
+
+
+
+
+
+
+
 function calculateCatAge(ageGiven, type) {
     let newAge = 0
     let baseYears = 24;
