@@ -4,7 +4,7 @@ const newAgeElement = document.getElementById("newAge");
 
 
 
-const recipeEl = document.getElementById('recipe-title')
+const catEl = document.getElementById('cat-title')
 
 fetch('https://catfact.ninja/fact?max_length=140')
     .then(response => {
@@ -17,9 +17,9 @@ fetch('https://catfact.ninja/fact?max_length=140')
         const catFact = responseJSON.fact;
             console.log(`Cat Fact: ${catFact}`);
             
-            const recipeTitle = document.createElement('p');
-            recipeTitle.innerText = catFact;
-            recipeEl.append(recipeTitle);
+            const catTitle = document.createElement('p');
+            catTitle.innerText = catFact;
+            catEl.append(catTitle);
     })
     .catch(error => console.error(`Error fetching API data: ${error}`));
 

@@ -2,7 +2,12 @@
 
 The Cat Age Calculator is a simple web application that allows users to calculate the age of their cat in human years. It takes the age of the cat as input and provides the equivalent age in human years based on a predetermined life expectancy ratio.
 
-![cat-mockup](images/cat-calculator-mockup.png)
+## Preview
+![cat-mockup](images/cat-age-calculator-gif.gif)
+
+![cat-mockup](images/cat-screenshot.png)
+
+<!-- ![cat-mockup](images/cat-calculator-mockup.png) -->
 
 ## Features
 

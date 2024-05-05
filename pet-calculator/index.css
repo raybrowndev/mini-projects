@@ -33,7 +33,7 @@ h1 {
     text-transform: uppercase;
     padding: 2rem;
     margin: 2rem;
-    margin-top: 3em;
+    margin-top: 1em;
     color: var(--c-white)
 }
 
@@ -118,14 +118,20 @@ output {
 }
 
 #random-cat-fact {
-    max-width: 50%;
+
+    background-color: #033431a4;
+    border-radius: 15px;
+    max-width: 70%;
     margin: 0 auto; 
     text-align: center;
     /* border:#122522;
     border-width: 10px; */
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 0px 30px;
 }
 
+#cat-fact-title {
+    color: var(--c-white);
+}
 
 #scrool-instructions {
     color: var(--c-link-light-hover);
