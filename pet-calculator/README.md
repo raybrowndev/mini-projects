@@ -29,13 +29,4 @@ The Cat Age Calculator is a simple web application that allows users to calculat
 2. Use the slider to select the age of your cat.
 3. The calculated age in human years will be displayed in real-time.
 
-## How to Contribute
-
-Contributions to the Cat Age Calculator project are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/new-feature`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/new-feature`).
-5. Create a new Pull Request and describe your changes.
 
