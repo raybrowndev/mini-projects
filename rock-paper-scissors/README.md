@@ -1,13 +1,15 @@
 # Rock, Paper, Scissors Game
 
-![HTML5](https://img.shields.io/badge/html5-E34C26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=323330) ![React](https://img.shields.io/badge/React-61DBFB?style=for-the-badge&logo=react&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-E34C26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=323330) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![React](https://img.shields.io/badge/React-61DBFB?style=for-the-badge&logo=react&logoColor=white)
 
-## Overview
+
 Welcome to the Rock, Paper, Scissors game! This react web application allows users to play the classic game against the computer. Simply enter your nickname, make a choice between Rock, Paper, or Scissors, and see who wins!
 
 ## Game Preview
 
-![rock paper game preview](https://github.com/raybrowndev/react-projects/blob/main/rock-paper-scissors/src/assets/react-rps-giphy.gif?raw=true)
+<img src="https://github.com/raybrowndev/react-projects/blob/main/rock-paper-scissors/src/assets/react-rps-giphy.gif?raw=true" alt="cat-mockup" width="350">
+
+<!-- ![rock paper game preview](https://github.com/raybrowndev/react-projects/blob/main/rock-paper-scissors/src/assets/react-rps-giphy.gif?raw=true) -->
 
 ### Features
 - **Components:** The application is structured using React components for better organisation and reusability. 
@@ -42,7 +44,11 @@ Welcome to the Rock, Paper, Scissors game! This react web application allows use
 5. Restart the game at any time by clicking the "RESTART" button.
 
 
+<hr></hr>
 
-<p align="center">
+<div align="center">
   <em>Thank you for checking out my project! 🚀</em>
-</p>
+  </br>
+  <em>Made with ♥ by Ray Brown </em>
+  
+</div>
