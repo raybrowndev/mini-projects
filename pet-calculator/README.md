@@ -5,9 +5,7 @@ The Cat Age Calculator is a simple web application that allows users to calculat
 ## Preview
 ![cat-mockup](images/cat-age-calculator-gif.gif)
 
-![cat-mockup](images/cat-screenshot.png)
-
-<!-- ![cat-mockup](images/cat-calculator-mockup.png) -->
+<!-- ![cat-mockup](images/cat-screenshot.png) -->
 
 ## Features
 
