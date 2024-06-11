@@ -1,7 +1,7 @@
 # Cat Age Calculator
 
 
-![HTML5](https://img.shields.io/badge/html5-E34C26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=323330) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)!
+![HTML5](https://img.shields.io/badge/html5-E34C26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=323330) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 The Cat Age Calculator is a simple web application that allows users to calculate the age of their cat in human years. It takes the age of the cat as input and provides the equivalent age in human years based on a predetermined life expectancy ratio.
 
