@@ -31,3 +31,13 @@ The Cat Age Calculator is a simple web application that allows users to calculat
 3. The calculated age in human years will be displayed in real-time.
 
 
+
+<hr></hr>
+
+<div align="center">
+  <em>Thank you for checking out my project! 🚀</em>
+  </br>
+  <em>Made with ♥ by Ray Brown </em>
+  
+</div>
+
