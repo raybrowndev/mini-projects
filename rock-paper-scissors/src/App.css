@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+  place-items: center;
+  margin: 20px;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.hand-icons {
+  margin: 10px;
+  padding: 20px;
+}
+
+.hand-rock {
+  color: #23967F;
+}
+
+.hand-paper {
+  color: #FBB2BF;
+  
+}
+
+.hand-scissors {
+  color: #89BBFE;
+}
+
+
+.hand-rock:hover {
+  background-color: #23967f32;
+}
+
+
+.hand-paper:hover {
+  background-color: #FBB2BF32;
+  
+}
+
+.hand-scissors:hover {
+  background-color: #89BBFE32;
+}
+
+
+.scoreboard {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  width: 70%;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+
+}
+
+.score-td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.score-th {
+  border: 1px solid #dddddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.chosen-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.game-container {
+  width: 80%; /* Set the width to about 1/3 of the screen */
+  margin: auto; /* Center the container horizontally */
+  text-align: center;
+  /* background-color: #f0f0f0; Slight grey background color */
+  padding: 10px;
+
+}
+
+
+h1 {
+  line-height: 1.1;
+}
+
+
+.title {
+  font-size: 2.5em;
+  line-height: 1.1;
+  margin-top: 50px;
+  padding-bottom: 25px;
+
+}
+.general-button {
+  border-radius: 6px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+
+button {
+  border-radius: 50%;
+  border-color: rgba(0, 0, 0, 0);
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.result {
+  color: rgb(252, 203, 212);
+  text-transform: uppercase;
+  padding: 0px;
+}
