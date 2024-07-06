@@ -9,8 +9,9 @@
 body {
   background-color: #f7f7f7;
   min-height: 100vh;
-  margin: 0;
+  margin: 3em;
   font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
 .container {
@@ -62,6 +63,7 @@ body {
 h1 {
   letter-spacing: 1px;
   margin: 0;
+  
 }
 
 h3 {
