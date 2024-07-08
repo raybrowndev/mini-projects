@@ -7,7 +7,7 @@ const AddExpenseButton = () => {
         <div>
             {/* <button onClick={onClick}>Add Expense</button>
             {showExpenseForm ? <Results />: null} */}
-            <button>Add Expense</button>
+            <button className="add-button"> Add Expense</button>
 
         </div>
     );
