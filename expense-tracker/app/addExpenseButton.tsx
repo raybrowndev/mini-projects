@@ -9,7 +9,6 @@ const AddExpenseButton = () => {
             {/* <button onClick={onClick}>Add Expense</button>
             {showExpenseForm ? <Text />: null} */}
             <button className="add-button"> Add Expense</button>
-            <Text />
 
         </div>
     );

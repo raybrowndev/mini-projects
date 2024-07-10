@@ -6,6 +6,8 @@ const  HomePage = () => {
     <main>
       <h1>Expense Tracker</h1>
       <Text />
+      <Text balance="£500.00"/>
+      <Text balance="-£246.00"/>
       <AddExpenseButton />
     </main>
   );
